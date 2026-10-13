@@ -1,0 +1,37 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "pixevboard",
+  "owner": {
+    "name": "Exemple"
+  },
+  "metadata": {
+    "description": "Marketplace Claude Code de l'organisation : les plugins du Pixev Board à la version choisie, et le plugin propre à l'organisation."
+  },
+  "plugins": [
+    {
+      "name": "pixev-board",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/PixevBoard/board-marketplace-shared.git",
+        "path": "plugins/pixev-board",
+        "ref": "v0.2.1"
+      },
+      "description": "Gère un projet du Pixev Board depuis Claude Code : connexion d'un dépôt, rédaction de tickets exécutables, livraison tracée (tempo et tokens), documentation. Embarque le serveur MCP du board."
+    },
+    {
+      "name": "pixev-team",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/PixevBoard/board-marketplace-shared.git",
+        "path": "plugins/pixev-team",
+        "ref": "v0.2.1"
+      },
+      "description": "Une équipe d'agents de rôle pour Claude Code : CTO, Product Owner, Architecte, Business Analyst, Lead Tech, Dev Frontend, Dev Backend, QA et Sécurité. Chaque rôle tranche une seule question et tient une porte de passage. La skill /orchestrate exécute sur un ticket le workflow d'agents défini pour son projet sur le Pixev Board."
+    },
+    {
+      "name": "exemple-team",
+      "source": "./plugins/exemple-team",
+      "description": "Les agents propres à l'organisation. Plugin d'exemple, à renommer au nom de l'organisation."
+    }
+  ]
+}

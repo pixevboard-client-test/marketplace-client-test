@@ -1,0 +1,8 @@
+{
+  "name": "exemple-team",
+  "version": "0.1.0",
+  "description": "Les agents propres à l'organisation, à côté de l'équipe pixev-team. Plugin d'exemple du gabarit de marketplace client.",
+  "author": {
+    "name": "Exemple"
+  }
+}
