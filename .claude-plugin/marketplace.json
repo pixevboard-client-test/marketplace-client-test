@@ -14,7 +14,7 @@
         "source": "git-subdir",
         "url": "https://github.com/PixevBoard/board-marketplace-shared.git",
         "path": "plugins/pixev-board",
-        "ref": "v0.2.4"
+        "ref": "v0.2.6"
       },
       "description": "Gère un projet du Pixev Board depuis Claude Code : connexion d'un dépôt, rédaction de tickets exécutables, livraison tracée (tempo et tokens), documentation. Embarque le serveur MCP du board."
     },
@@ -24,7 +24,7 @@
         "source": "git-subdir",
         "url": "https://github.com/PixevBoard/board-marketplace-shared.git",
         "path": "plugins/pixev-team",
-        "ref": "v0.2.4"
+        "ref": "v0.2.6"
       },
       "description": "Une équipe d'agents de rôle pour Claude Code : CTO, Product Owner, Architecte, Business Analyst, Lead Tech, Dev Frontend, Dev Backend, QA et Sécurité. Chaque rôle tranche une seule question et tient une porte de passage. La skill /orchestrate exécute sur un ticket le workflow d'agents défini pour son projet sur le Pixev Board."
     },
